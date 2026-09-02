@@ -1,0 +1,14 @@
+# Cada persona crea su copia local. Nunca se comparte.
+profile/athlete.toml
+.env
+.env.*
+*.log
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Tokens y credenciales de Garmin/Telegram nunca pertenecen al proyecto.
+.garminconnect/
+.garminconnect_base64
+secrets/

@@ -1,0 +1,64 @@
+# Copia este archivo como profile/athlete.toml y reemplaza los ejemplos.
+# athlete.toml está ignorado por Git para proteger la información personal.
+
+[athlete]
+name = "Tu nombre"
+birth_year = 1990
+timezone = "America/Chicago"
+units = "metric"
+experience_level = "intermediate" # beginner | intermediate | advanced
+
+[goals]
+primary = "Completar mi primer triatlón sintiéndome fuerte"
+event_name = "Triatlón objetivo"
+event_date = "2027-06-01"
+success_definition = "Terminar saludable, constante y sin agravar lesiones"
+secondary = ["Dormir mejor", "Mantener fuerza general"]
+
+[schedule]
+available_days = ["monday", "tuesday", "thursday", "saturday", "sunday"]
+preferred_time = "06:00"
+max_session_minutes = 60
+long_session_day = "saturday"
+long_session_max_minutes = 150
+real_life_constraints = [
+  "Trabajo presencial miércoles",
+  "Viaje de 30 minutos al lugar de entrenamiento"
+]
+
+[health]
+medical_clearance = false
+active_injuries = []
+past_injuries = ["Describe lesiones relevantes y cuándo ocurrieron"]
+medications_affecting_heart_rate = []
+allergies_or_conditions = []
+red_flags_today = false
+
+[training]
+sports = ["running", "cycling", "swimming", "strength"]
+recent_volume = "Describe las últimas 4 a 8 semanas sin exagerar"
+preferred_rest_day = "wednesday"
+max_heart_rate = 190
+resting_heart_rate_baseline = 55
+
+[heart_rate_zones]
+# Son solo un ejemplo. Usa zonas evaluadas para la persona y el deporte.
+z1 = [95, 115]
+z2 = [115, 145]
+z3 = [145, 165]
+z4 = [165, 180]
+z5 = [180, 195]
+
+[equipment]
+garmin_device = "Modelo del reloj o ciclocomputador"
+available = ["Bicicleta", "Piscina de 25 m", "Gimnasio"]
+limitations = []
+
+[preferences]
+enjoys = ["Sesiones al aire libre", "Planes explicados con claridad"]
+dislikes = ["Entrenar tarde"]
+coaching_tone = "directo y empático"
+
+[privacy]
+share_raw_health_data = false
+retain_exports = false
